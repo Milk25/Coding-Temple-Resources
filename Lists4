@@ -1,0 +1,150 @@
+supplies = ['pens', 'staplers', 'flamethrowers', 'binders']
+
+for index, item in enumerate(supplies):
+    print('Index ' + str(index) + ' in supplies is: ' + item)
+
+
+# Index 0 in supplies is: pens
+# Index 1 in supplies is: staplers
+# Index 2 in supplies is: flamethrowers
+# Index 3 in supplies is: 
+
+
+
+
+import random
+pets = ['Dog', 'Cat', 'Moose']
+
+random.choice(pets)
+'Dog'
+random.choice(pets)
+'Cat'
+random.choice(pets)
+'Cat'
+
+
+
+import random
+
+people = ['Alice', 'Bob', 'Carol', 'David']
+random.shuffle(people)
+people
+['Carol', 'David', 'Alice', 'Bob']
+random.shuffle(people)
+people
+['Alice', 'David', 'Bob', 'Carol']
+
+
+
+
+spam = 42
+spam = spam + 1
+spam
+43
+
+
+
+spam = 42
+spam += 1
+spam
+
+
+
+
+
+# Augmented assignment statement
+
+# Equivalent assignment statement
+
+spam += 1
+
+spam = spam + 1
+
+spam -= 1
+
+spam = spam - 1
+
+spam *= 1
+
+spam = spam * 1
+
+spam /= 1
+
+spam = spam / 1
+
+spam %= 1
+
+spam = spam % 1
+
+
+
+
+spam = 'Hello,'
+spam += ' world!'
+spam
+'Hello world!'
+bacon = ['Zophie']
+bacon *= 3
+bacon
+['Zophie', 'Zophie', 'Zophie']
+
+
+
+
+# Methods
+
+# Finding a Value in a List with the index() Method
+
+spam = ['hello', 'hi', 'howdy', 'heyas']
+spam.index('hello')
+0
+spam.index('heyas')
+3
+spam.index('howdy howdy howdy')
+
+
+# Traceback (most recent call last):
+#   File "<pyshell#31>", line 1, in <module>
+    # spam.index('howdy howdy howdy')
+# ValueError: 'howdy howdy howdy' is not in list
+
+
+spam = ['Zophie', 'Pooka', 'Fat-tail', 'Pooka']
+spam.index('Pooka')
+1
+
+
+
+# Adding Values to Lists with the append() and insert() Methods
+
+spam = ['cat', 'dog', 'bat']
+spam.append('moose')
+spam
+['cat', 'dog', 'bat', 'moose']
+
+
+
+spam = ['cat', 'dog', 'bat']
+spam.insert(1, 'chicken')
+spam
+['cat', 'chicken', 'dog', 'bat']
+
+
+
+
+eggs = 'hello'
+eggs.append('world')
+# Traceback (most recent call last):
+#   File "<pyshell#19>", line 1, in <module>
+eggs.append('world')
+# AttributeError: 'str' object has no attribute 'append'
+bacon = 42
+bacon.insert(1, 'world')
+# Traceback (most recent call last):
+#   File "<pyshell#22>", line 1, in <module>
+bacon.insert(1, 'world')
+# AttributeError: 'int' object has no attribute 'insert'
+
+
+
+# Removing Values from Lists with the remove() Method

@@ -1,0 +1,24 @@
+if 5 > 2:
+    print("Five is greater than two!)
+          
+
+
+
+
+if True:
+    print("All is well!")
+print("Wait, why am I here?") # wrongly indented
+
+
+
+a = '''Python's
+multi-line
+Groove!'''
+
+b = "Hello, Coding Templers!" \
+How are you today?"
+print(a)
+print(b)
+
+
+

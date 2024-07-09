@@ -1,0 +1,85 @@
+cookies = 10
+print(cookies) # 10
+    
+
+
+#-with no variables
+print("Hello, Moe!")
+
+#with variables
+
+user_name = input("What's your name?")
+
+print("Hello, " + user_name + "!")
+
+#Snake Case for variables
+
+cup_of_coffee = "Expresso"
+cup_of_tea = "Green Tea"
+
+
+#Camel Case for functions
+
+def orderCoffee():
+    return "One coffee coming right up!"
+
+def orderTea():
+    return "A cup of tea for your thoughts!"
+
+
+
+#Pascal Case for Classes
+
+class CoffeeMug:
+    def __init__(self, size="medium"):
+        self.size = size
+
+
+
+
+#UPPERCASE for Constants
+
+TABLES = 10
+
+
+#UPPER_SNAKE_CASE for constants
+# with multiple words
+
+MAX_SEATING_CAPACITY = 40
+
+
+favorite_ice_cream = "chocolate"
+print(favorite_ice_cream)
+
+
+x, y, z = "apple", "banana", "cherry"
+print(x, y, z)
+
+
+beach = "Sunny Shore"
+print(beach)
+
+
+waves_today = 5
+tide_height = 3.4
+
+
+print(waves_today)
+print(tide_height)
+
+
+is_sunny = True
+is_raining = False
+print(is_sunny)
+print(is_raining)
+
+
+
+amount = 100
+print(type(amount)) 
+# <class 'int'>
+
+
+
+user_print = input("Enter a number: ")
+print(user_print) 

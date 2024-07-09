@@ -1,0 +1,31 @@
+answer = input("Do you like Python?(yes/no)")
+
+if answer == "yes":
+    print("That's great to hear!")
+else:
+    print("Oh, why not?")
+
+
+
+
+
+number_string = "123"
+number = int(number_string)
+print(number + 1)
+
+
+decimal_string = "3.14"
+pi = float(decimal_string)
+print(pi + 2)
+
+
+age = 25
+age_string = str(age)
+print("I am " + age_string + " years old.")
+
+
+is_empty = bool("False")
+print(is_empty)
+
+is_empty = bool("pineapple")
+print(is_empty)

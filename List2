@@ -1,0 +1,104 @@
+potions = ["Healing", "Invisibility", "Strength"]
+print(potions)
+
+
+
+
+empty_list = []
+
+
+
+print(potions[0]) # This will get you "Healing"
+
+
+
+
+favorite_potion = potions[1] # This will get you "Invisibility"
+print(favorite_potion)
+
+
+
+last_potion = potions[-1] # This will fetch you "Strength"
+print(last_potion)
+
+
+
+
+colors = ["red", "blue", "green", "yellow"]
+print(colors)
+
+
+
+
+ecletic_list = [42, "unicorn", 3.14, ["apple", "banana", "cherry"]]
+print(ecletic_list)
+
+ecletic_list.append("starry-night")
+print(ecletic_list)
+
+ecletic_list.remove(42)
+print(ecletic_list)
+
+
+# Duplicate Items
+
+flowers = ["rose", "lily", "rose", "daisy", "lily"]
+print(flowers)
+
+rose_count = flowers.count("rose") # This reveals the number 2
+print(rose_count)
+
+
+flowers.remove("lily") # Only the first "lily" vanishes, leaving one behind.
+print(flowers)
+
+
+# Dynamic Additions
+
+hobbies = ["reading", "painting", "cycling"]
+print(hobbies)
+
+hobbies.append("singing")
+print(hobbies) # new entry to the end
+
+hobbies.insert(1, "dancing") # This adds "dancing" at the second position
+print(hobbies)
+
+
+
+# Modifying Existing Values
+
+hobbies[0] = "writing" # "reading" transforms into "writing"
+print(hobbies)
+
+
+# Taking Items Out
+
+hobbies.remove = ("cycling")
+print(hobbies)
+
+# pop - Removes the last item or a specific item by its position.
+
+last_hobby = hobbies.pop() # Removes the last hobby
+print(last_hobby)
+
+
+second_hobby = hobbies.pop(1) # removes "dancing"
+print(second_hobby)
+
+
+# Exploring & Finding
+
+count_reading = hobbies.count("writing")
+print(count_reading)
+
+position_painting = hobbies.index("painting")
+print(position_painting)
+
+
+# Clearing the List
+
+hobbies.clear()
+print(hobbies)
+
+
